@@ -1,0 +1,53 @@
+{
+  "original|XGBoost": {
+    "colsample_bytree": 0.67999860995856,
+    "learning_rate": 0.010570545748914244,
+    "max_depth": 5,
+    "min_child_weight": 3,
+    "n_estimators": 397,
+    "subsample": 0.9498291830579986
+  },
+  "original|RandomForest": {
+    "max_depth": 8,
+    "max_features": 1.0,
+    "min_samples_leaf": 3,
+    "n_estimators": 391
+  },
+  "original|Ridge": {
+    "ridge__alpha": 37.27593720314938
+  },
+  "seasonal|XGBoost": {
+    "colsample_bytree": 0.6598699468734732,
+    "learning_rate": 0.0194646587780028,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "n_estimators": 242,
+    "subsample": 0.7438031602295144
+  },
+  "seasonal|RandomForest": {
+    "max_depth": 6,
+    "max_features": "sqrt",
+    "min_samples_leaf": 4,
+    "n_estimators": 398
+  },
+  "seasonal|Ridge": {
+    "ridge__alpha": 37.27593720314938
+  },
+  "trend|XGBoost": {
+    "colsample_bytree": 0.8694638523343157,
+    "learning_rate": 0.18387792844970502,
+    "max_depth": 5,
+    "min_child_weight": 3,
+    "n_estimators": 754,
+    "subsample": 0.9907044352761348
+  },
+  "trend|RandomForest": {
+    "max_depth": 12,
+    "max_features": 1.0,
+    "min_samples_leaf": 1,
+    "n_estimators": 428
+  },
+  "trend|Ridge": {
+    "ridge__alpha": 0.0001
+  }
+}

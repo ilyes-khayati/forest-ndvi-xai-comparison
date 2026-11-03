@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+earthengine-api
+PyWavelets
+scikit-learn
+xgboost
+shap
+ipykernel<7
+jupyter

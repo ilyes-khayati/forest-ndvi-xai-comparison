@@ -1,0 +1,40 @@
+branch,model,family,share
+original,RandomForest,LST,0.6145657931066854
+original,RandomForest,drought,0.006850524434744149
+original,RandomForest,noise probe,0.0017769440607074668
+original,RandomForest,own history,0.37680673839786294
+original,Ridge,LST,0.09324957329612342
+original,Ridge,drought,0.006323113330514912
+original,Ridge,noise probe,0.0
+original,Ridge,own history,0.9004273133733617
+original,XGBoost,LST,0.4923548706095188
+original,XGBoost,drought,0.006614184291746917
+original,XGBoost,noise probe,0.004762451370507516
+original,XGBoost,own history,0.49626849372822673
+seasonal,RandomForest,LST,0.3517718484403735
+seasonal,RandomForest,calendar,0.08280639396488441
+seasonal,RandomForest,drought,0.0
+seasonal,RandomForest,noise probe,0.0022120225824786904
+seasonal,RandomForest,own history,0.5632097350122633
+seasonal,Ridge,LST,0.04457887586800494
+seasonal,Ridge,calendar,0.016955586462862226
+seasonal,Ridge,drought,0.014527970870342894
+seasonal,Ridge,noise probe,0.0
+seasonal,Ridge,own history,0.9239375667987899
+seasonal,XGBoost,LST,0.5665096972743284
+seasonal,XGBoost,calendar,0.06448861648562433
+seasonal,XGBoost,drought,0.0
+seasonal,XGBoost,noise probe,0.0008399427607080519
+seasonal,XGBoost,own history,0.3681617434793391
+trend,RandomForest,LST,0.025153878549182457
+trend,RandomForest,drought,0.0
+trend,RandomForest,noise probe,0.00046824110462266507
+trend,RandomForest,own history,0.9743778803461949
+trend,Ridge,LST,0.0036181244457100885
+trend,Ridge,drought,0.0005894322775940692
+trend,Ridge,noise probe,0.0
+trend,Ridge,own history,0.9957924432766958
+trend,XGBoost,LST,0.026478688168003594
+trend,XGBoost,drought,0.0
+trend,XGBoost,noise probe,0.0008573763661315242
+trend,XGBoost,own history,0.9726639354658648

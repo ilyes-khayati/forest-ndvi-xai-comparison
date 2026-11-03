@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+venv/
+.venv/
+.vscode/
+
+data/processed/*
+figures/*
+!**/.gitkeep
+
+# extracted series are committed: 165 KB, and they make the analysis
+# reproducible without an Earth Engine account
+!data/raw/*.csv

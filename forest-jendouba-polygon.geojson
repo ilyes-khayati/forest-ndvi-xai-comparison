@@ -1,0 +1,39 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kroumirie forest block",
+    "source": "1 km block, ESA WorldCover v200 tree cover 100%, SRTM mean elevation 740 m"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       8.696,
+       36.7541
+      ],
+      [
+       8.707199999999998,
+       36.7541
+      ],
+      [
+       8.707199999999998,
+       36.7631
+      ],
+      [
+       8.696,
+       36.7631
+      ],
+      [
+       8.696,
+       36.7541
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
