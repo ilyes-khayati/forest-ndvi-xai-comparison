@@ -1,10 +1,10 @@
 branch,model,n_features,noise_rank,lst_rank,lst_share,below_noise
-original,XGBoost,8,8,1,0.5099814106924427,
-original,RandomForest,8,8,1,0.4941449145369401,
+original,XGBoost,8,8,1,0.5040953005674137,
+original,RandomForest,8,8,1,0.49414491453693954,
 original,Ridge,8,8,4,0.028054444795397215,
-seasonal,XGBoost,8,8,1,0.5147285587143529,
+seasonal,XGBoost,8,8,1,0.5889822332756708,
 seasonal,RandomForest,8,8,1,0.5382873932913699,
 seasonal,Ridge,8,8,5,0.016233987819603606,
-trend,XGBoost,8,8,3,0.013335120977314574,
-trend,RandomForest,8,8,5,0.0025821417807672564,
-trend,Ridge,8,6,8,0.0,"T_lag24, LST_T_lag1"
+trend,XGBoost,6,6,3,0.01601910369295706,
+trend,RandomForest,6,6,4,0.002408143869894669,
+trend,Ridge,6,5,3,0.0022536706806532514,SPEI_12_T_lag12

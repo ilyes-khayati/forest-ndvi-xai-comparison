@@ -37,7 +37,7 @@ original,SPEI_3_lag11,drought,2,not significant,"best of lags 1-12: r=+0.153, bo
 original,SPEI_48_lag1,drought,2,not significant,"best of lags 1-12: r=-0.114, bound 0.213, sign opposite"
 original,SPEI_6_lag1,drought,2,not significant,"best of lags 1-12: r=-0.077, bound 0.208, sign opposite"
 original,SPEI_1_lag7,drought,3,family representative,"no SPEI lag passed; strongest lag kept (r=+0.155, bound 0.188)"
-original,LST_lag1,LST,3,negative control,no incremental evidence; kept to test attribution
+original,LST_lag1,LST,3,"rejected by the linear screen, kept",no linear incremental evidence in stage 2; kept to see how each model uses it
 original,noise_probe,probe,3,random probe,"Gaussian noise, seed 0; true importance zero"
 seasonal,NDVI_S_lag1,own history,1,selected,"lasso, time-series CV, one-standard-error rule"
 seasonal,NDVI_S_lag2,own history,1,not selected,"lasso, time-series CV, one-standard-error rule"
@@ -76,7 +76,7 @@ seasonal,SPEI_24_S_lag6,drought,2,selected,"best of lags 1-12: r=+0.222, bound 0
 seasonal,SPEI_3_S_lag11,drought,2,not significant,"best of lags 1-12: r=+0.165, bound 0.193, sign as expected"
 seasonal,SPEI_48_S_lag7,drought,2,not significant,"best of lags 1-12: r=+0.128, bound 0.196, sign as expected"
 seasonal,SPEI_6_S_lag1,drought,2,not significant,"best of lags 1-12: r=-0.172, bound 0.195, sign opposite"
-seasonal,LST_S_lag1,LST,3,negative control,no incremental evidence; kept to test attribution
+seasonal,LST_S_lag1,LST,3,"rejected by the linear screen, kept",no linear incremental evidence in stage 2; kept to see how each model uses it
 seasonal,noise_probe,probe,3,random probe,"Gaussian noise, seed 0; true importance zero"
 trend,NDVI_T_lag1,own history,1,selected,"lasso, time-series CV, one-standard-error rule"
 trend,NDVI_T_lag2,own history,1,not selected,"lasso, time-series CV, one-standard-error rule"
@@ -111,9 +111,9 @@ trend,time_index,time,1,excluded a priori,not extrapolable by tree models; would
 trend,LST_T_lag9,LST,2,not significant,"best of lags 1-12: r=-0.095, bound 0.159, sign as expected"
 trend,SPEI_1_T_lag12,drought,2,not significant,"best of lags 1-12: r=-0.113, bound 0.159, sign opposite"
 trend,SPEI_12_T_lag12,drought,2,selected,"best of lags 1-12: r=-0.241, bound 0.159, sign opposite"
-trend,SPEI_24_T_lag9,drought,2,selected,"best of lags 1-12: r=-0.211, bound 0.159, sign opposite"
+trend,SPEI_24_T_lag9,drought,2,redundant,"best of lags 1-12: r=-0.211, bound 0.159, sign opposite; a stronger drought lag was kept"
 trend,SPEI_3_T_lag12,drought,2,not significant,"best of lags 1-12: r=-0.158, bound 0.159, sign opposite"
 trend,SPEI_48_T_lag1,drought,2,not significant,"best of lags 1-12: r=-0.156, bound 0.159, sign opposite"
-trend,SPEI_6_T_lag12,drought,2,selected,"best of lags 1-12: r=-0.194, bound 0.159, sign opposite"
-trend,LST_T_lag1,LST,3,negative control,no incremental evidence; kept to test attribution
+trend,SPEI_6_T_lag12,drought,2,redundant,"best of lags 1-12: r=-0.194, bound 0.159, sign opposite; a stronger drought lag was kept"
+trend,LST_T_lag1,LST,3,"rejected by the linear screen, kept",no linear incremental evidence in stage 2; kept to see how each model uses it
 trend,noise_probe,probe,3,random probe,"Gaussian noise, seed 0; true importance zero"

@@ -1,10 +1,12 @@
-pandas
-numpy
-matplotlib
-earthengine-api
-PyWavelets
-scikit-learn
-xgboost
-shap
-ipykernel<7
+# Python 3.12; versions the results were produced with
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+earthengine-api==1.7.43
+PyWavelets==1.8.0
+scikit-learn==1.9.1
+xgboost==3.4.1
+shap==0.52.0
+ipykernel==6.31.0
 jupyter

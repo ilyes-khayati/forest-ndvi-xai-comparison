@@ -1,0 +1,272 @@
+{
+  "original|2010-12|XGBoost": {
+    "colsample_bytree": 0.30819985892950136,
+    "learning_rate": 0.005000846386103412,
+    "max_depth": 6,
+    "min_child_weight": 2,
+    "n_estimators": 2950,
+    "reg_lambda": 1.2137980202836665,
+    "subsample": 0.33803659183747753
+  },
+  "original|2010-12|RandomForest": {
+    "max_depth": 6,
+    "max_features": 0.5,
+    "min_samples_leaf": 1,
+    "n_estimators": 328
+  },
+  "original|2010-12|Ridge": {
+    "ridge__alpha": 15.848931924611142
+  },
+  "original|2013-15|XGBoost": {
+    "colsample_bytree": 0.46283889498083586,
+    "learning_rate": 0.004647394358649535,
+    "max_depth": 2,
+    "min_child_weight": 2,
+    "n_estimators": 2038,
+    "reg_lambda": 6.145630813263575,
+    "subsample": 0.9279490732222004
+  },
+  "original|2013-15|RandomForest": {
+    "max_depth": 8,
+    "max_features": 0.75,
+    "min_samples_leaf": 2,
+    "n_estimators": 428
+  },
+  "original|2013-15|Ridge": {
+    "ridge__alpha": 15.848931924611142
+  },
+  "original|2016-18|XGBoost": {
+    "colsample_bytree": 0.46283889498083586,
+    "learning_rate": 0.004647394358649535,
+    "max_depth": 2,
+    "min_child_weight": 2,
+    "n_estimators": 2038,
+    "reg_lambda": 6.145630813263575,
+    "subsample": 0.9279490732222004
+  },
+  "original|2016-18|RandomForest": {
+    "max_depth": 16,
+    "max_features": 0.33,
+    "min_samples_leaf": 1,
+    "n_estimators": 570
+  },
+  "original|2016-18|Ridge": {
+    "ridge__alpha": 10.0
+  },
+  "original|2019-21|XGBoost": {
+    "colsample_bytree": 0.46283889498083586,
+    "learning_rate": 0.004647394358649535,
+    "max_depth": 2,
+    "min_child_weight": 2,
+    "n_estimators": 2038,
+    "reg_lambda": 6.145630813263575,
+    "subsample": 0.9279490732222004
+  },
+  "original|2019-21|RandomForest": {
+    "max_depth": 12,
+    "max_features": 0.33,
+    "min_samples_leaf": 2,
+    "n_estimators": 935
+  },
+  "original|2019-21|Ridge": {
+    "ridge__alpha": 50.11872336272725
+  },
+  "original|2022-24|XGBoost": {
+    "colsample_bytree": 0.7228824628146173,
+    "learning_rate": 0.00578720268009329,
+    "max_depth": 5,
+    "min_child_weight": 5,
+    "n_estimators": 717,
+    "reg_lambda": 1.5400669702911056,
+    "subsample": 0.4923764989073176
+  },
+  "original|2022-24|RandomForest": {
+    "max_depth": 8,
+    "max_features": 0.75,
+    "min_samples_leaf": 2,
+    "n_estimators": 428
+  },
+  "original|2022-24|Ridge": {
+    "ridge__alpha": 39.81071705534978
+  },
+  "seasonal|2010-12|XGBoost": {
+    "colsample_bytree": 0.8241517802780931,
+    "learning_rate": 0.0022889404421228138,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "n_estimators": 1899,
+    "reg_lambda": 0.15309801274975712,
+    "subsample": 0.9201735883014825
+  },
+  "seasonal|2010-12|RandomForest": {
+    "max_depth": 6,
+    "max_features": 0.5,
+    "min_samples_leaf": 1,
+    "n_estimators": 328
+  },
+  "seasonal|2010-12|Ridge": {
+    "ridge__alpha": 7.943282347242821
+  },
+  "seasonal|2013-15|XGBoost": {
+    "colsample_bytree": 0.5246980689614482,
+    "learning_rate": 0.0020590704680909498,
+    "max_depth": 4,
+    "min_child_weight": 11,
+    "n_estimators": 1840,
+    "reg_lambda": 0.5539361408594066,
+    "subsample": 0.9243463485109704
+  },
+  "seasonal|2013-15|RandomForest": {
+    "max_depth": 16,
+    "max_features": 0.33,
+    "min_samples_leaf": 1,
+    "n_estimators": 570
+  },
+  "seasonal|2013-15|Ridge": {
+    "ridge__alpha": 10.0
+  },
+  "seasonal|2016-18|XGBoost": {
+    "colsample_bytree": 0.46283889498083586,
+    "learning_rate": 0.004647394358649535,
+    "max_depth": 2,
+    "min_child_weight": 2,
+    "n_estimators": 2038,
+    "reg_lambda": 6.145630813263575,
+    "subsample": 0.9279490732222004
+  },
+  "seasonal|2016-18|RandomForest": {
+    "max_depth": 6,
+    "max_features": 0.5,
+    "min_samples_leaf": 1,
+    "n_estimators": 328
+  },
+  "seasonal|2016-18|Ridge": {
+    "ridge__alpha": 6.309573444801943
+  },
+  "seasonal|2019-21|XGBoost": {
+    "colsample_bytree": 0.9316440082217889,
+    "learning_rate": 0.0009435954408002498,
+    "max_depth": 2,
+    "min_child_weight": 4,
+    "n_estimators": 2927,
+    "reg_lambda": 0.06942729492430151,
+    "subsample": 0.3902484083583973
+  },
+  "seasonal|2019-21|RandomForest": {
+    "max_depth": 4,
+    "max_features": 0.5,
+    "min_samples_leaf": 1,
+    "n_estimators": 598
+  },
+  "seasonal|2019-21|Ridge": {
+    "ridge__alpha": 39.81071705534978
+  },
+  "seasonal|2022-24|XGBoost": {
+    "colsample_bytree": 0.7869378119471999,
+    "learning_rate": 0.003066396019416707,
+    "max_depth": 8,
+    "min_child_weight": 4,
+    "n_estimators": 2361,
+    "reg_lambda": 1.089853846878525,
+    "subsample": 0.36046388625944886
+  },
+  "seasonal|2022-24|RandomForest": {
+    "max_depth": 6,
+    "max_features": 0.5,
+    "min_samples_leaf": 1,
+    "n_estimators": 328
+  },
+  "seasonal|2022-24|Ridge": {
+    "ridge__alpha": 31.622776601683793
+  },
+  "trend|2010-12|XGBoost": {
+    "colsample_bytree": 0.9581467825483372,
+    "learning_rate": 0.06091276925610799,
+    "max_depth": 3,
+    "min_child_weight": 2,
+    "n_estimators": 2011,
+    "reg_lambda": 0.03368279736947911,
+    "subsample": 0.7955422238728044
+  },
+  "trend|2010-12|RandomForest": {
+    "max_depth": null,
+    "max_features": 1.0,
+    "min_samples_leaf": 2,
+    "n_estimators": 686
+  },
+  "trend|2010-12|Ridge": {
+    "ridge__alpha": 0.5011872336272725
+  },
+  "trend|2013-15|XGBoost": {
+    "colsample_bytree": 0.9676049664646822,
+    "learning_rate": 0.017727772400666357,
+    "max_depth": 6,
+    "min_child_weight": 12,
+    "n_estimators": 694,
+    "reg_lambda": 2.009114315700224,
+    "subsample": 0.8745369844909203
+  },
+  "trend|2013-15|RandomForest": {
+    "max_depth": null,
+    "max_features": 1.0,
+    "min_samples_leaf": 2,
+    "n_estimators": 686
+  },
+  "trend|2013-15|Ridge": {
+    "ridge__alpha": 0.6309573444801942
+  },
+  "trend|2016-18|XGBoost": {
+    "colsample_bytree": 0.6773514827368408,
+    "learning_rate": 0.05137623264692092,
+    "max_depth": 5,
+    "min_child_weight": 10,
+    "n_estimators": 712,
+    "reg_lambda": 2.520977377070059,
+    "subsample": 0.7121177269792016
+  },
+  "trend|2016-18|RandomForest": {
+    "max_depth": null,
+    "max_features": 1.0,
+    "min_samples_leaf": 4,
+    "n_estimators": 507
+  },
+  "trend|2016-18|Ridge": {
+    "ridge__alpha": 2.5118864315095824
+  },
+  "trend|2019-21|XGBoost": {
+    "colsample_bytree": 0.9581467825483372,
+    "learning_rate": 0.06091276925610799,
+    "max_depth": 3,
+    "min_child_weight": 2,
+    "n_estimators": 2011,
+    "reg_lambda": 0.03368279736947911,
+    "subsample": 0.7955422238728044
+  },
+  "trend|2019-21|RandomForest": {
+    "max_depth": null,
+    "max_features": 1.0,
+    "min_samples_leaf": 4,
+    "n_estimators": 991
+  },
+  "trend|2019-21|Ridge": {
+    "ridge__alpha": 1e-06
+  },
+  "trend|2022-24|XGBoost": {
+    "colsample_bytree": 0.8887980908499196,
+    "learning_rate": 0.1630115083841652,
+    "max_depth": 1,
+    "min_child_weight": 3,
+    "n_estimators": 1663,
+    "reg_lambda": 2.8989335277123973,
+    "subsample": 0.38667398799460906
+  },
+  "trend|2022-24|RandomForest": {
+    "max_depth": null,
+    "max_features": 1.0,
+    "min_samples_leaf": 2,
+    "n_estimators": 686
+  },
+  "trend|2022-24|Ridge": {
+    "ridge__alpha": 1e-06
+  }
+}
