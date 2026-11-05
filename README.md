@@ -108,6 +108,10 @@ export EE_PROJECT=<your Earth Engine project id>
   is sensor and atmospheric noise.
 - One forest block. The result is a case study until it is repeated on other blocks.
 
+## Licence
+
+Code under the MIT licence (see `LICENSE`). The MODIS, SPEI, WorldCover and SRTM data keep their own terms.
+
 ## Author
 
 Ilyes Khayati. Data: MODIS MOD13Q1 and MOD11A2 (NASA LP DAAC, via Google Earth Engine),
